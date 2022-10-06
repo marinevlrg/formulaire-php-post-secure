@@ -18,23 +18,23 @@
 
         <div>
             <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="user_nom">
+            <input type="text" id="nom" name="user_nom" required>
         </div>
         <div>
             <label for="prenom">Prénom :</label>
-            <input type="text" id="prenom" name="user_prenom">
+            <input type="text" id="prenom" name="user_prenom" required>
         </div>
         <div>
             <label for="email">Email :</label>
-            <input type="email" id="email" name="user_email">
+            <input type="email" id="email" name="user_email" required>
         </div>
         <div>
             <label for="telephone">Téléphone :</label>
-            <input type="text" id="telephone" name="user_phone">
+            <input type="text" id="telephone" name="user_phone" required>
         </div>
         <div>
             <label for="sujet">Sujet :</label>
-            <select id="sujet" name="sujet">
+            <select id="sujet" name="sujet" required>
                 <option value="">--Please choose an option--</option>
                 <option value="sujet1">Sujet1</option>
                 <option value="sujet2">Sujet2</option>
@@ -44,7 +44,7 @@
         </div>
         <div>
             <label for="message">Message :</label>
-            <textarea id="message" name="user_message"></textarea>
+            <textarea id="message" name="user_message" required></textarea>
         </div>
         <div class="button">
             <button type="submit">Envoyer votre message</button>
